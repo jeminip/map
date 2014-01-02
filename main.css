@@ -1,0 +1,54 @@
+html,body {
+width:  100%;
+height: 100%;
+margin: 0px;
+padding: 3px;
+}
+
+#overlay {
+	width:100%; 
+	height: 100%; 
+	position:absolute; 
+	top:0; 
+	left: 0; 
+	background-color:#111; 
+	z-index:2000;
+}
+
+#img {
+	position: absolute; 
+	top: 15%; 
+	left:7%; 
+	margin: -135px 0 0 -140px; 
+	z-index:2001;
+}
+
+#map {
+	top:100%;
+	right:100%;
+	background-color: #ccccc8;
+}
+
+#info-overlay {
+	position: absolute;
+	top:10px;
+	left: 10px;
+	z-index: 1000;
+	background-color: #FBFFCB;
+	padding: 9px 18px;
+	box-shadow: 0 5px 5px -3px black;
+	border-radius: 20px/60px;
+	color: black;
+	opacity: 0.9;
+	font-family: 'Trebuchet MS', sans-serif;
+}
+
+#info-overlay:hover {
+	opacity: .5;
+	color:#111;
+}
+
+#info-overlay p {
+	padding: 3px 0;
+	margin: 0;
+}
